@@ -128,22 +128,89 @@
 
 .section4{
     background-image: url(/images/pexelsphoto218863.jpeg);
-    height: 700px;
+    height: 600px;
     background-size: cover;
     color: white;
     font-family: 'Roboto',sans-serif;
-    font-size: 48px;
+    font-size: 44px;
 }
 .section4 div{
     position: absolute;
-    top: 2590px;
+    top: 2522px;
     left: 45px;
 }
 
 /*5th section*/
+
 .section5{
-    height: 400px;
+    height: 300px;
     background-color:#E72E36 ;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+}
+.indiv{
+    height: 27px;
+    margin-left: 18px;
+}
+.follow h3{
+    font-size: 48px;
     font-family: 'Roboto',sans-serif;
+    margin-left: 25px;
+}
+.linkedin{
+    margin-left: 24px;
+}
+
+/*5th section*/
+
+.section6{
+    height: 700px;
+    background-image: url(/images/xdz.jpg);
+    color: white;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.section6 h2{
+    font-size: 150px;
+}
+.section6 h3{
+    font-size: 48px;
+    color:#E72E36;
+}
+.section6 p{
+    font-family: 'Open sans',sans-serif;
+    font-size: 18px;
+}
+.section6 a{
+    font-size: 16px;
+    font-family: 'Open sans',sans-serif;
+    text-decoration: underline;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+.section6 div{
+    width: 433px;
+    border: white solid;
+    height: 557px;
+    margin-left: 40px;
+}
+.sale{
+    
 }
